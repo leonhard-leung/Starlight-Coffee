@@ -8,6 +8,8 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.12"/>
+        <ProjectReference Include="..\StarlightCoffee.Application\StarlightCoffee.Application.csproj" />
+        <ProjectReference Include="..\StarlightCoffee.Domain\StarlightCoffee.Domain.csproj" />
     </ItemGroup>
 
 </Project>
