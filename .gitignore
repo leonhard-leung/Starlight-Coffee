@@ -1,0 +1,48 @@
+﻿```gitignore
+# JetBrains IDEs (Rider / WebStorm)
+.idea/
+*.sln.iml
+
+# .NET / ASP.NET Core
+**/bin/
+**/obj/
+*.user
+*.suo
+*.rsuser
+*.userosscache
+*.sln.docstates
+
+# .NET test results
+**/TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# Node.js / React / Vite
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local databases and database files
+*.db
+*.db-shm
+*.db-wal
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
